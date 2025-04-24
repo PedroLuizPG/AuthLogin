@@ -98,7 +98,7 @@ export function Login() {
           Login
         </h1>
 
-        <form className="w-70 md:w-100 max-w-xl px-1 " onSubmit={handleSubmit}>
+        <form className="w-80 md:w-100 max-w-xl px-1 " onSubmit={handleSubmit}>
           <label className="block text-sm/6 font-medium text-white">
             Email
           </label>
@@ -119,12 +119,12 @@ export function Login() {
             onChange={(e) => setInputSenha(e.target.value)}
           />
 
-          <div className="flex items-center justify-between mb-10">
+          <div className="flex items-center justify-between mb-10 mt-1 gap-2">
             <div className="flex items-center  gap-1">
               <input type="checkbox" className="w-4 h-4 accent-blue-500  " />
               <label className="text-neutral-400">Lembrar senha</label>
             </div>
-            <a className="border-b text-white md:text-black">
+            <a className="text-[16px] md:text-2xl border-b text-white md:text-black">
               Esqueceu sua senha
             </a>
           </div>
@@ -139,7 +139,7 @@ export function Login() {
             </span>
           </p>
         </form>
-        <hr className="w-70 md:w-100 mb-3 border-white md:border-black" />
+        <hr className="w-80 md:w-100 mb-3 border-white md:border-black" />
         <div>
           <span className="font-medium text-white md:text-black">Ou</span>
         </div>
@@ -147,7 +147,7 @@ export function Login() {
         <div className="md:w-100 md:max-w-xl w-full mt-3 flex flex-col md:flex-row gap-4 items-center justify-center">
           <button
             onClick={loginGoogle}
-            className="w-70 h-9 rounded-3xl flex items-center justify-center p-5 bg-white text-black  font-bold text-[13px] border-0 cursor-pointer"
+            className="w-80 h-9 rounded-3xl flex items-center justify-center p-5 bg-white text-black  font-bold text-[13px] border-0 cursor-pointer"
           >
             <div className="flex items-center gap-4">
               <FcGoogle />
@@ -157,7 +157,7 @@ export function Login() {
 
           <button
             onClick={loginGitHub}
-            className="w-70 h-9 rounded-3xl flex items-center justify-center p-5 bg-black text-white  font-bold text-[13px] border-0 cursor-pointer"
+            className="w-80 h-9 rounded-3xl flex items-center justify-center p-5 bg-black text-white  font-bold text-[13px] border-0 cursor-pointer"
           >
             <div className="flex items-center gap-4">
               <FaGithub />

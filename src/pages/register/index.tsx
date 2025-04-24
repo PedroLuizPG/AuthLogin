@@ -47,7 +47,7 @@ export function Register() {
           Criar Conta
         </h1>
 
-        <form className="w-70 md:w-100 max-w-xl px-1 " onSubmit={handleRegister}>
+        <form className="w-80 md:w-100 max-w-xl px-1 " onSubmit={handleRegister}>
           <label className="block text-sm/6 font-medium text-white">Nome</label>
           <Input
             value={nome}
@@ -80,7 +80,7 @@ export function Register() {
           </button>
         </form>
 
-        <hr className="w-70 md:w-100 mt-7 md:text-black text-white " />
+        <hr className="w-80 md:w-100 mt-7 md:text-black text-white " />
 
         <p className="mt-5 font-extralight md:text-black text-white">
           Já tem uma conta?
