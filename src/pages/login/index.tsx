@@ -92,13 +92,13 @@ export function Login() {
   }
 
   return (
-    <div className="h-fit md:w-full min-h-screen  flex flex-col items-center justify-center">
+    <div className=" w-full min-h-screen  flex flex-col items-center justify-center">
       <div className=" md:border p-5  md:bg-gray-600  md:w-[500px] md:rounded-xl flex flex-col items-center">
         <h1 className="text-2xl text-white md:text-3xl font-bold mb-5 text-center">
           Login
         </h1>
 
-        <form className="w-100 max-w-xl px-1 " onSubmit={handleSubmit}>
+        <form className="w-70 md:w-100 max-w-xl px-1 " onSubmit={handleSubmit}>
           <label className="block text-sm/6 font-medium text-white">
             Email
           </label>
@@ -139,15 +139,15 @@ export function Login() {
             </span>
           </p>
         </form>
-        <hr className="w-100 mb-3 border-white md:border-black" />
+        <hr className="w-70 md:w-100 mb-3 border-white md:border-black" />
         <div>
           <span className="font-medium text-white md:text-black">Ou</span>
         </div>
 
-        <div className="w-100 max-w-xl  mt-3 flex gap-4">
+        <div className="md:w-100 md:max-w-xl w-full mt-3 flex flex-col md:flex-row gap-4 items-center justify-center">
           <button
             onClick={loginGoogle}
-            className="w-6/12 h-9 rounded-3xl flex items-center justify-center p-5 bg-white text-black  font-bold text-[13px] border-0 cursor-pointer"
+            className="w-70 h-9 rounded-3xl flex items-center justify-center p-5 bg-white text-black  font-bold text-[13px] border-0 cursor-pointer"
           >
             <div className="flex items-center gap-4">
               <FcGoogle />
@@ -157,7 +157,7 @@ export function Login() {
 
           <button
             onClick={loginGitHub}
-            className="w-6/12 h-9 rounded-3xl flex items-center justify-center p-5 bg-black text-white  font-bold text-[13px] border-0 cursor-pointer"
+            className="w-70 h-9 rounded-3xl flex items-center justify-center p-5 bg-black text-white  font-bold text-[13px] border-0 cursor-pointer"
           >
             <div className="flex items-center gap-4">
               <FaGithub />
