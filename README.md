@@ -25,25 +25,4 @@ Este é um sistema de login desenvolvido com **ReactJS** e **TypeScript**,onde p
 
 ---
 
-## 🔧 Como rodar o projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-2. Instale as dependências:
-```
-   npm install
-```
-Configure o Firebase:
-
-Crie um projeto no Firebase
-
- -> Ative a autenticação com Email/Senha
-
- -> Copie suas credenciais e adicione no arquivo firebase.ts
-
-Rode o projeto:
-```
-npm run dev
-```
