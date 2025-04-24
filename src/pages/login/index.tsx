@@ -29,7 +29,7 @@ export function Login() {
     await signInWithEmailAndPassword(auth, inputEmail, inputSenha)
       .then(() => {
         navigate("/", { replace: true });
-        
+
         setInputSenha("");
       })
       .catch((err) => console.log("Error" + err));
@@ -64,7 +64,6 @@ export function Login() {
       // IdP data available using getAdditionalUserInfo(result)
       // ...
       navigate("/", { replace: true });
-      window.close();
     } catch (err) {
       console.log("Error", err);
     }
