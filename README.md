@@ -1,6 +1,6 @@
 # 🔐 Sistema de Login com Proteção de Rotas
 
-Este é um sistema de login desenvolvido com **ReactJS** e **TypeScript**, utilizando **Firebase Authentication** para autenticação de usuários e **Firestore** para armazenamento de dados. A interface foi construída com **Material UI** e **Tailwind CSS**. A rota da **Home** está protegida, sendo acessível apenas por usuários autenticados.
+Este é um sistema de login desenvolvido com **ReactJS** e **TypeScript**,onde pude estudar e melhorar minhas habilidades no frontend utilizando **Firebase Authentication** para autenticação de usuários e **Firestore** para armazenamento de dados. A interface foi construída com alguns componentes do **Material UI** e **Tailwind CSS**. A rota da **Home** está protegida, sendo acessível apenas por usuários autenticados.
 
 ---
 
@@ -31,24 +31,19 @@ Este é um sistema de login desenvolvido com **ReactJS** e **TypeScript**, utili
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
-Instale as dependências:
-
-bash
-Copiar
-Editar
-npm install
+2. Instale as dependências:
+```
+   npm install
+```
 Configure o Firebase:
 
 Crie um projeto no Firebase
 
-Ative a autenticação com Email/Senha
+ -> Ative a autenticação com Email/Senha
 
-Copie suas credenciais e adicione no arquivo firebase.ts
+ -> Copie suas credenciais e adicione no arquivo firebase.ts
 
 Rode o projeto:
-
-bash
-Copiar
-Editar
+```
 npm run dev
-
+```
