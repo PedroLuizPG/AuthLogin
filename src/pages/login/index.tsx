@@ -124,7 +124,7 @@ export function Login() {
               <input type="checkbox" className="w-4 h-4 accent-blue-500  " />
               <label className="text-neutral-400">Lembrar senha</label>
             </div>
-            <a className="text-[16px] md:text-2xl border-b text-white md:text-black">
+            <a className="text-[16px]  border-b text-white md:text-black">
               Esqueceu sua senha
             </a>
           </div>
