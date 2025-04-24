@@ -1,52 +1,36 @@
-🔐 Sistema de Login com Proteção de Rotas
-Este é um sistema de login desenvolvido com ReactJS e TypeScript, utilizando Firebase Authentication para autenticação de usuários e Firestore para armazenamento de dados. A interface foi construída com Material UI e Tailwind CSS. A rota da Home está protegida, sendo acessível apenas por usuários autenticados.
+# 🔐 Sistema de Login com Proteção de Rotas
 
-🚀 Tecnologias Utilizadas
-⚛️ ReactJS
+Este é um sistema de login desenvolvido com **ReactJS** e **TypeScript**, utilizando **Firebase Authentication** para autenticação de usuários e **Firestore** para armazenamento de dados. A interface foi construída com **Material UI** e **Tailwind CSS**. A rota da **Home** está protegida, sendo acessível apenas por usuários autenticados.
 
-🟦 TypeScript
+---
 
-🔥 Firebase Authentication
+## 🚀 Tecnologias Utilizadas
 
-🔥 Firebase Firestore
+- ⚛️ **ReactJS**
+- 🟦 **TypeScript**
+- 🔥 **Firebase Authentication**
+- 🔥 **Firebase Firestore**
+- 🎨 **Material UI**
+- 🌬️ **Tailwind CSS**
 
-🎨 Material UI
+---
 
-🌬️ Tailwind CSS
+## 🔐 Funcionalidades
 
-🔐 Funcionalidades
-Cadastro de usuários
+- Cadastro de usuários
+- Login com email e senha
+- Logout
+- Proteção de rotas (ex: a página **Home** só é acessível se o usuário estiver logado)
+- Armazenamento de dados no Firestore
 
-Login com email e senha
+---
 
-Logout
+## 🔧 Como rodar o projeto
 
-Proteção de rotas (ex: a página Home só é acessível se o usuário estiver logado)
-
-Armazenamento de dados no Firestore
-
-📁 Estrutura básica do projeto
-less
-Copiar
-Editar
-src/
-├── components/
-│   └── ProtectedRoute.tsx  // Componente que protege rotas privadas
-├── pages/
-│   ├── Home.tsx            // Página protegida
-│   └── Login.tsx           // Página de login
-├── services/
-│   └── firebase.ts         // Configuração do Firebase
-├── App.tsx
-└── main.tsx
-🔧 Como rodar o projeto
-Clone o repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
 Instale as dependências:
 
 bash
